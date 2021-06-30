@@ -22,4 +22,8 @@ public class Pet {
     public void cured(){
         health_index += 5;
     }
+
+    public String get_name(){
+        return name;
+    }
 }
